@@ -1,0 +1,11 @@
+import './consola-js/consola-js.js';
+import './menu-aero/menu-aero.js';
+import './menu-android/menu-android.js';
+import './menu-iphone/menu-iphone.js';
+import './menu-windows/menu-windows.js';
+import './x-iframe/x-iframe.js';
+import './paginador/Paginador-files.js';
+import './x-codigo/x-codigo.js';
+//import './test-web-component/test-web-component.js';
+import './bar/bar-menu.js';
+import './tooltip/tooltip.js';
