@@ -1,6 +1,6 @@
 import { addWindowConParametros } from "../ventana/agregarApps.js";
 import { showTexto } from "./archivo-text.js";
-import { showAudio } from "./archivo-audio.js";
+import { showAudio, showVideo } from "./archivo-multimedia.js";
 
 /**
  * 
@@ -14,5 +14,7 @@ export function procesaArchivo(file) {
     if (file.type == 'audio/mpeg'){
         showAudio(div, file);
     }
-    console.log(file);
+    if (file.type == 'video/mp4'){
+        showVideo(div, file);
+    }    
 }
